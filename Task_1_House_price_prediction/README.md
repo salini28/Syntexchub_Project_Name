@@ -1,27 +1,25 @@
-# Task 1 - House Price Prediction Using Linear Regression
 
-## Overview
+ House Price Prediction Using Linear Regression
 
-This project focuses on predicting house prices using Machine Learning and Linear Regression techniques.
+ 1. Project Overview
+This project predicts house prices using Machine Learning
+and the Linear Regression algorithm.
 
-The project involves analysing housing data, performing data cleaning, exploratory data analysis, feature preprocessing, model training, house price prediction, and model evaluation.
-
-## Objectives
-
+2. Objectives
 - Understand and analyse the housing dataset.
-- Perform data cleaning and preprocessing.
-- Handle missing values and duplicate records.
-- Conduct Exploratory Data Analysis (EDA).
-- Visualize house price distributions and relationships between features.
-- Select relevant features for prediction.
-- Apply categorical data encoding.
-- Implement Linear Regression.
-- Predict house prices using the trained model.
-- Evaluate model performance using RMSE, MAE, and R² Score.
-- Save the trained Machine Learning model.
+- Perform data cleaning.
+- Explore data using visualizations.
+- Apply Linear Regression.
+- Evaluate the model using RMSE, MAE, and R2 Score.
+- Save the trained machine learning model.
 
-## Technologies Used
+ 3. Dataset
+Dataset: Housing Prices Dataset
 
+Source:
+https://www.kaggle.com/datasets/yasserh/housing-prices-dataset
+
+ 4. Technologies Used
 - Python
 - Google Colab
 - Pandas
@@ -31,37 +29,28 @@ The project involves analysing housing data, performing data cleaning, explorato
 - Scikit-learn
 - Joblib
 
-## Machine Learning Algorithm
+ 5. Project Workflow
+1. Import the dataset.
+2. Understand the dataset.
+3. Clean the data.
+4. Perform Exploratory Data Analysis (EDA).
+5. Select features and target variable.
+6. Split data into training and testing sets.
+7. Apply Linear Regression.
+8. Evaluate model performance.
+9. Save the trained model.
 
-- Linear Regression
+6. Machine Learning Algorithm
+Linear Regression
 
-## Project Workflow
+ 7. Model Evaluation
+- RMSE: Add your RMSE value
+- MAE: Add your MAE value
+- R2 Score: Add your R2 value
 
-- Dataset Collection
-- Data Understanding and Cleaning
-- Exploratory Data Analysis (EDA)
-- Feature Selection
-- Data Preprocessing
-- Model Training
-- House Price Prediction
-- Model Evaluation
-- Model Saving
+ 8. Saved Model
+house_price_complete_pipeline.pkl
 
-## Model Evaluation Metrics
-
-- Root Mean Squared Error (RMSE)
-- Mean Absolute Error (MAE)
-- R² Score
-
-## Project Files
-
-- House_price_prediction.ipynb
-- Housing.csv
-- Housing_Cleaned.csv
-- house_price_complete_pipeline.pkl
-- Project_Report.pdf
-- requirements.txt
-
-## Conclusion
-
-This project demonstrates how Machine Learning and Linear Regression can be applied to predict house prices based on housing features. It provides practical experience in data preprocessing, exploratory data analysis, model development, prediction, and performance evaluation.
+ 9. Conclusion
+The project demonstrates how Linear Regression can be
+used to predict house prices based on housing features.

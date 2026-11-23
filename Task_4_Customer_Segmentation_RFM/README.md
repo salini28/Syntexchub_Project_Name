@@ -1,21 +1,29 @@
-# Task 4 - Customer Segmentation Using RFM Analysis
+# Customer Segmentation Using RFM Analysis
 
 ## Project Overview
 
-Customer segmentation using Recency, Frequency, and Monetary (RFM) analysis with Python.
+This project focuses on customer segmentation using RFM (Recency, Frequency, Monetary) Analysis.
+
+## Objectives
+
+- Analyze customer purchasing behaviour.
+- Calculate RFM values.
+- Identify different customer segments.
+- Visualize customer distribution.
+- Provide business recommendations.
+
+## Dataset
+
+Online Retail Dataset from UCI Machine Learning Repository.
 
 ## Technologies Used
 
 - Python
+- Google Colab
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Google Colab
-
-## Dataset
-
-UCI Online Retail Dataset.
 
 ## Customer Segments
 
@@ -27,4 +35,8 @@ UCI Online Retail Dataset.
 
 ## Results
 
-Identified 4,338 customers across five customer segments.
+The analysis identified 4,338 customers across five customer segments.
+
+## Conclusion
+
+RFM analysis helps businesses understand customer purchasing behaviour, improve customer retention, and develop targeted marketing strategies.

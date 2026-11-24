@@ -1,0 +1,6 @@
+Customer_Segment,Recency,Frequency,Monetary,Customer_Count
+At Risk Customers,150.64,3.41,1246.46,661
+Lost Customers,216.68,1.1,487.71,1074
+Loyal Customers,13.0,10.05,5225.51,1121
+New Customers,18.1,1.25,458.84,310
+Potential Loyal Customers,41.78,2.93,1313.53,1172

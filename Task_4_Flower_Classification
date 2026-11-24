@@ -1,0 +1,160 @@
+# 🌸 Flower Classification Using Machine Learning
+
+## 📌 Project Overview
+
+This project focuses on classifying Iris flowers into three different species using Machine Learning algorithms.
+
+The system uses flower measurements to predict the species of an Iris flower.
+
+The three flower species are:
+- Iris Setosa
+- Iris Versicolor
+- Iris Virginica
+
+## 🎯 Objectives
+
+- Load and understand the Iris dataset.
+- Perform Exploratory Data Analysis (EDA).
+- Visualize feature relationships using different graphs.
+- Train Machine Learning classification models.
+- Evaluate model performance.
+- Predict flower species for new user inputs.
+
+## 📊 Dataset Description
+
+This project uses the built-in Iris dataset from Scikit-learn.
+
+The dataset contains 150 records and 4 input features.
+
+**Features:**
+- Sepal Length (cm)
+- Sepal Width (cm)
+- Petal Length (cm)
+- Petal Width (cm)
+
+**Target Variable:**
+- Species
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Joblib
+
+## 🤖 Machine Learning Algorithms
+
+Two classification algorithms are implemented:
+
+1. Logistic Regression
+2. Decision Tree Classifier
+
+Both models are trained and evaluated to compare their performance.
+
+## 🔍 Exploratory Data Analysis (EDA)
+
+The following visualizations are created:
+
+- Histogram
+- Species Distribution Bar Chart
+- Scatter Plot
+- Box Plot
+- Pair Plot
+- Correlation Heatmap
+
+## 📈 Model Evaluation
+
+The models are evaluated using:
+
+- Accuracy Score
+- Confusion Matrix
+- Precision
+- Recall
+- F1-Score
+
+A model accuracy comparison graph is also generated.
+
+## 🌸 Flower Prediction System
+
+A prediction system is developed using the trained Logistic Regression model.
+
+Users can enter four flower measurements:
+
+- Sepal Length
+- Sepal Width
+- Petal Length
+- Petal Width
+
+The system predicts the corresponding flower species.
+
+## 📁 Project Structure
+
+```text
+Task_4_Flower_Classification/
+│
+├── models/
+│   ├── logistic_regression.pkl
+│   └── decision_tree.pkl
+│
+├── notebooks/
+│   └── Flower_Classification.ipynb
+│
+├── src/
+│   └── predict.py
+│
+├── outputs/
+│   ├── histogram.png
+│   ├── species_distribution.png
+│   ├── scatter_plot.png
+│   ├── box_plot.png
+│   ├── pair_plot.png
+│   ├── correlation_heatmap.png
+│   └── model_comparison.png
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+## ⚙️ Installation
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+## ▶️ How to Run
+
+Navigate to the src directory:
+
+```bash
+cd src
+```
+
+Run the prediction program:
+
+```bash
+python predict.py
+```
+
+Enter the flower measurements when prompted to get the predicted species.
+
+## 👩‍💻 Author
+
+**Name:** Your Name
+
+**Internship:** Syntexchub
+
+**Project:** Task 4 - Flower Classification
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates how Machine Learning algorithms can be used to classify flower species based on their physical measurements.
+
+It provides practical experience in data preprocessing, exploratory data analysis, model training, evaluation, and prediction.
